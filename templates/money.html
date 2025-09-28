@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/money.css">
+    <script src="../js/main.js"></script>
+    <script src="../js/money.js"></script>
+</head>
+<body>
+    <div w3-include-html="header.html"></div> 
+    <div class="row">
+        <div class="column_left">       
+        </div>
+        <div class="column_center">
+            <div>
+                <div> 
+                    <input class="myimg" type="image" id="myimage" src="../images/bitcoin.gif">       
+                    <h1>Free Money</h1> 
+                </div>
+                <div>
+                    <input class="textbox" type="text" id="mynumber" value="$0">
+                </div>
+                <div>
+                    <input type="button" class="resetbutton"  onclick="reset()" value="RESET">
+                </div>
+                <div>
+                    <input type="button" class="mybutton"  onclick="press(10)" value="$10">
+                    <input type="button" class="mybutton"  onclick="press(50)" value="$50">
+                    <input type="button" class="mybutton"  onclick="press(100)" value="$100">
+                </div>
+            </div>
+        </div>
+        <div class="column_right">    
+        </div>
+    <audio id="myAudio2">
+        <source src="../sound/soundClick.wav" type="audio/mpeg">
+    </audio>
+
+    <script>
+        includeHTML();
+    </script>
+</body>
+</html>

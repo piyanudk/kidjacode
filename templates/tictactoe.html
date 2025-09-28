@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tictactoe.css">
+    <script src="../js/main.js"></script>
+    <script src="../js/tictactoe.js"></script>
+</head>
+<body>
+    <div w3-include-html="header.html"></div> 
+    
+    <div class="column_left">
+    </div>  
+    <div class="column_center">
+        <div>  
+            <div>
+                <h1>Tic Tac Toe</h1>
+            </div>
+            <div>
+                <input id="player" class="playerbox" type="text" value="Player-X">
+                <input id="winner" class="winnerbox" type="text" value="">
+            </div>
+            <div>
+                <input class="mybutton" id="aSpace" type="button" onclick="press('a')"> 
+                <input class="mybutton" id="bSpace" type="button" onclick="press('b')"> 
+                <input class="mybutton" id="cSpace" type="button" onclick="press('c')"> 
+            </div>
+
+ 
+            <div>
+                <input class="mybutton" id="dSpace" type="button" onclick="press('d')">
+                <input class="mybutton" id="eSpace" type="button" onclick="press('e')"> 
+                <input class="mybutton" id="fSpace" type="button" onclick="press('f')"> 
+            </div>
+
+            <div>
+                <input  class="mybutton" id="gSpace" type="button" onclick="press('g')"> 
+                <input  class="mybutton" id="hSpace" type="button" onclick="press('h')"> 
+                <input  class="mybutton" id="iSpace" type="button" onclick="press('i')"> 
+            </div>
+
+            <div>
+                <input class="resetbutton" id="resetButton" type="button" onclick="resetGame()" value="RESET GAME">
+            </div>
+
+        </div>
+    </div>
+    <div class="column_right">        
+    </div> 
+    <audio id="soundClick">
+        <source src="../sound/soundClick.wav" type="audio/mpeg">
+    </audio>
+    <audio id="soundWin">
+        <source src="../sound/soundWin.wav" type="audio/mpeg">
+    </audio>
+    <script>
+      includeHTML();
+    </script>
+</body>
+</html>

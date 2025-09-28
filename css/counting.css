@@ -1,0 +1,22 @@
+.textbox {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    font-size: 250px;
+    background-color: rgb(237, 232, 230);
+    border-radius: 10px;
+} 
+.up_arrow {
+    margin-bottom: 100px;
+    width:250px;
+    float:left;
+    background-color: rgb(6, 161, 48);
+    border-radius: 10px;
+}
+.down_arrow {
+    margin-bottom: 100px;
+    width:250px;
+    float:left;
+    background-color: rgb(225, 4, 4);
+    border-radius: 10px;
+}

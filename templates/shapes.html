@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Shapes</title>
+  <script src="../js/main.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/shapes.css">
+
+</head>
+<body>
+  <div w3-include-html="header.html"></div> 
+
+  <div class="column_left">
+  </div>
+  <div class="column_center">
+    <div>
+      <div> 
+        <h1>Shapes Canvas</h1>
+      </div>
+      <div>
+        <canvas id="myCanvas" width="500" height="500"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="column_right">
+  </div>
+  <script src="../js/shapes.js"></script>
+  <script>
+    includeHTML();
+    filled_rectangle();
+    draw_a_filled_circle();
+    draw_a_circle_outline();
+  </script>
+
+</body>
+</html>

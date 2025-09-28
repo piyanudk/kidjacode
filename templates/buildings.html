@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/buildings.css">
+    <script src="../js/main.js"></script>
+    <script src="../js/buildings.js"></script>
+</head>
+<body>
+    <div w3-include-html="header.html"></div>
+    <div class="column_left">
+    </div>
+
+    <div class="column_center">
+        <div>
+            <div> 
+                <h1>World Tallest Buildings</h1>
+            </div>
+            <div>
+                <input class="buildingPic" id="id_building" type="image" 
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Burj_Khalifa.jpg/200px-Burj_Khalifa.jpg">     
+            </div>
+            <div>
+                <input class="textbox" type="text" id="building_name" value="Burj Khalifa">
+                <br>
+                <input class="textbox" type="text" id="building_country" value="United Arab Emirates">      
+            </div> 
+            <div>
+                <input class="leftButton" type="button" value="<" onclick="pickLeft()">
+                <input class="midButton" type="button" value="RANDOM" onclick="pickRandom()">
+                <input class="rightButton" type="button" value=">" onclick="pickRight()">
+            </div>
+        </div>
+    </div>
+    <div class="column_right">    
+    </div>
+    <audio id="myAudio2">
+        <source src="../sound/soundClick.wav" type="audio/mpeg">
+    </audio>
+
+    <script>
+      includeHTML();
+    </script>
+
+    <script>
+        readFile();
+    </script>
+</body>
+</html>

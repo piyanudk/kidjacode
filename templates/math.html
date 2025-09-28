@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math for fun</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/math.css">
+    <script src="../js/main.js"></script>
+    <script src="../js/math.js"></script>
+</head>
+<body>
+  <div w3-include-html="header.html"></div> 
+  
+    <div class="column_left">
+    </div>  
+
+    <div class="column_center">
+        <div>
+            <div>
+                <input class="inputBox" type="text" id="num1" value="0">
+                <input class="operator" type="text" id="op" value="+" onclick="next_question();">
+                <input class="inputBox" type="text" id="num2" value="0">    
+            </div>
+            <div>
+                <input class="answerBox" type="text" id="ans1" value="0" onclick="check_answer(1)">
+                <input class="answerBox" type="text" id="ans2" value="0" onclick="check_answer(2)">
+                <input class="answerBox" type="text" id="ans3" value="0" onclick="check_answer(3)">
+                <input class="answerBox" type="text" id="ans4" value="0" onclick="check_answer(4)">
+            </div>
+        </div>
+    </div>
+    <div class="column_right">    
+    </div>
+    <audio id="soundClick">
+        <source src="../sound/soundClick.wav" type="audio/mpeg">
+    </audio>
+    <audio id="soundWin">
+        <source src="../sound/soundWin.wav" type="audio/mpeg">
+    </audio>
+    <script>
+      includeHTML();
+      next_question();
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turtle Programming in JS</title>
+  <script src="../js/main.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/turtle.css">
+  
+</head>
+<body>
+  <div w3-include-html="header.html"></div> 
+
+  <div class="column_left">
+  </div>
+  <div class="column_center">
+    <div>
+      <div> 
+        <h1>Turtle Canvas</h1>
+      </div>
+      <div>
+        <canvas id="turtleCanvas" width="500" height="500"></canvas>
+      </div>
+    </div>
+  </div>
+  <script src="../js/turtle.js"></script>
+  <script>
+    includeHTML();
+    left(180);
+    drawSnowman(0,100,8);
+    drawSnowman(0,100,3);  
+  </script>
+
+</body>
+</html>
