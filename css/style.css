@@ -15,7 +15,7 @@ body {
   background-color:rgb(42, 41, 41);
   color:rgb(194, 190, 190);
   font-size:18px;
-  background-image: url("../images/new_year.png");
+  background-color: lightgray;
 
   overflow: hidden;
 
@@ -30,7 +30,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: auto;
-  background-color:green;
+  background-color: #BF0A30;
 }
 /* Style the topnav links */
 .topnav a {
@@ -61,8 +61,7 @@ body {
   width: 100%;
   padding: 0px;
   height:800px;
-  /* background-image: url("../images/christmas.png"); */
-  background-image: url("../images/new_year.png");
+  
 }
 .column_right {
   float: left;
