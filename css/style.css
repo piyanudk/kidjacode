@@ -8,7 +8,7 @@ h1 {
   text-align: center;
   margin-top: 0px;
   height:50px;
-  font-family: cursive;
+  font-family: courier;
 }
 body {
   margin: 0;
@@ -16,7 +16,7 @@ body {
   font-size:18px;
   background-color: #aeaaaa;
   overflow: hidden;
-  background-image: url("/kidjacode/images/bg_001.jpeg");
+  background-image: url("/kidjacode/images/bg_002.jpeg");
 
 }
 /* Style the header */
@@ -38,6 +38,8 @@ body {
   text-align: left;
   /*padding: 14px 16px;*/
   text-decoration: none;
+  font-family:'Courier';
+  font-size: 10px;
 }
 /* Change color on hover */
 .topnav a:hover {
@@ -144,9 +146,15 @@ li .dropdown {
   display: block;
 }
 .logo {
-  width: 40px;
-  border-radius: 10px;
-  margin-top: 0px;
+  text-shadow: 1px 1px black;
+  display: inline-block;
+  color:white;
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 30px; 
+  padding-right: 30px; 
+  text-decoration: none;
 }
 
 
