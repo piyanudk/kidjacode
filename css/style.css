@@ -16,7 +16,7 @@ body {
   font-size:18px;
   background-color: #aeaaaa;
   overflow: hidden;
-
+  background-image: url("/kidjacode/images/bg_001.jpeg");
 
 }
 /* Style the header */
@@ -29,6 +29,7 @@ body {
 .topnav {
   overflow: auto;
   background-color: #BF0A30;
+
 }
 /* Style the topnav links */
 .topnav a {
@@ -84,6 +85,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #38444d;
+
 }
 li {
   float: left;
@@ -102,15 +104,15 @@ li .dropbtn {
   display: inline-block;
   color:white;
   text-align: left;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 30px; 
   padding-right: 30px; 
   text-decoration: none;
 }
 
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover  {
   color:black;
   background-color: #ddd;
 }
@@ -127,8 +129,8 @@ li .dropdown {
 }
 .dropdown-content a {
   color: white;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 30px; 
   padding-right: 30px; 
   text-decoration: none;
@@ -136,7 +138,7 @@ li .dropdown {
   text-align: left;
 }
 .dropdown-content a:hover {
-  background-color: #aeaaaa;
+  background-color: #aeaaaa
 }
 .dropdown:hover .dropdown-content {
   display: block;
