@@ -31,7 +31,6 @@ body {
   /* background-color: #BF0A30; */
   background-color: #403e3f;
   font-family:'Courier';
-  font-size: 20px;
 }
 /* Style the topnav links */
 .topnav a {
@@ -40,8 +39,6 @@ body {
   text-align: left;
   /*padding: 14px 16px;*/
   text-decoration: none;
-  font-family:'Courier';
-  font-size: 20px;
 
 }
 /* Change color on hover */
@@ -107,9 +104,10 @@ li a {
 }
 li .dropbtn {
   display: inline-block;
-  color:darkgray;
+  color:lightsteelblue;
   /* text-shadow: 1px 1px #BF0A30; */
-  text-shadow: 1px 1px blue;
+  font-size: 20px;
+  text-shadow: 1px 1px darkblue;
   text-align: left;
   padding-top: 2px;
   padding-bottom: 2px;
