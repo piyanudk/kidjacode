@@ -107,7 +107,7 @@ li a {
 }
 li .dropbtn {
   display: inline-block;
-  color:white;
+  color:darkgray;
   /* text-shadow: 1px 1px #BF0A30; */
   text-shadow: 1px 1px blue;
   text-align: left;
