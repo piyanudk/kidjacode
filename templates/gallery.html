@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/gallery.css">
   <script src="../js/main.js"></script>
-  <script src="../js/birds.js"></script>
+
+
+
 
 </head>
 <body>
@@ -15,18 +17,26 @@
 
   <div w3-include-html="header.html"></div>
 
+  <script>
+    includeHTML();
+  </script>
 
+  <div class="column_left">
+  </div>
 
-  <div id="gallery"></div>
-  <script src="../js/gallery.js"></script> 
+  <div class="column_center">
+    <div id="gallery"></div>
+    <script src="../js/gallery.js"></script> 
 
- 
+  </div>
+  <div class="column_right">    
+  </div>
   
 
 
-<script>
-  includeHTML();
-</script>
+
+
+
 
 </body>
 </html>
