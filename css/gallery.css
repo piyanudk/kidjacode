@@ -2,11 +2,15 @@
     box-sizing: border-box;
   }
   
-  div.gallery {
+  #gallery {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-wrap: wrap;       /* Allow images to wrap */
+    gap: 10px;
+    max-height: 700px;     /* Set height limit */
+    overflow-y: auto;      /* Enable vertical scrolling */
+    padding: 10px;
   }
+  
   
   div.gallery-item {
     margin: 5px;
@@ -21,7 +25,8 @@
   
   div.gallery-item img {
     width: 100%;
-    height: auto;
+    height: 100px;
+
   }
   
   div.gallery-item div.desc {
