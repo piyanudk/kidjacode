@@ -21,7 +21,7 @@
   
   function generateGallery() {
     // Example: just using first 24 entries
-    for (let i = 1; i < rows.length-1; i++) {
+    for (let i = 1; i < rows.length; i++) {
       const img = document.createElement('img');
       
       // Make sure the row and column exist
