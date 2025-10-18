@@ -3,7 +3,7 @@
     height: 300px;
     text-align: center;
     font-size: 250px;
-    background-color: rgb(237, 232, 230);
+    background-color: darkgray;
     border-radius: 10px;
 } 
 .up_arrow {
@@ -22,5 +22,6 @@
 }
 
 h1 {
-    color: whitesmoke;
+    color: darkgray;
+    padding-top: 5px;
 }

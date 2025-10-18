@@ -10,7 +10,7 @@
     width: 165px;
     height: 100px;
     font-size: 24px;
-    background-color: green;
+    background-color: rgb(83, 173, 246);
     border-radius: 10px;
 } 
 .resetbutton {
@@ -18,7 +18,7 @@
     height: 100px;
     color:black;
     font-size: 24px;
-    background-color: white;
+    background-color: darkgray;
     border-radius: 10px;
 } 
 .myimg {
@@ -28,5 +28,6 @@
 }
 
 h1 {
-    color: whitesmoke;
+    color: darkgray;
+    padding-top: 5px;
 }

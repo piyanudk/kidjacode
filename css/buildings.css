@@ -11,9 +11,9 @@
  
 .buildingPic {
     width:500px;
-    height:450px;
+    height:350px;
     margin-left:150px;
-    background-color: rgb(6, 161, 48);
+    background-color: darkgray;
     border-radius: 10px;
 }
 
@@ -24,7 +24,7 @@
   margin-left: 150px;
   margin-top: 20px;
   font-size: 20px;
-  background-color:green;
+  background-color:rgb(83, 173, 246);
   border-radius: 10px;
 }
 .midButton {
@@ -32,7 +32,7 @@
   height: 70px;
   font-size: 20px;
   margin-left: 5px;
-  background-color:green;
+  background-color:rgb(83, 173, 246);
   border-radius: 10px;
 }
 .rightButton {
@@ -40,10 +40,11 @@
   height: 70px;
   font-size: 20px;
   margin-left: 5px;
-  background-color:green;
+  background-color:rgb(83, 173, 246);
   border-radius: 10px;
 }
 
 h1 {
-  color: whitesmoke;
+  color: darkgray;
+  padding-top: 5px;
 }
