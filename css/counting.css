@@ -8,14 +8,14 @@
     margin-bottom: 5px;
 } 
 .up_arrow {
+    margin-left: 10px;
     margin-bottom: 100px;
     width:245px;
     float:left;
     background-color: rgb(6, 161, 48);
     border-radius: 10px;
 }
-.down_arrow {
-    margin-left: 10px;
+.down_arrow { 
     margin-bottom: 100px;
     width:245px;
     float:left;

@@ -37,9 +37,9 @@
         //img.style.height = '180px';
   
       const imgDesc = document.createElement('p');
-      imgDesc.textContent = rows[i][2] + "\n" + rows[i][5]; // Example: name from column 0
+      imgDesc.textContent = rows[i][2] + "\n (" + rows[i][5] + ")"; // Example: name from column 0
       imgDesc.style.textAlign = 'center';
-      imgDesc.style.marginTop = '5px';
+      imgDesc.style.marginTop = '1px';
   
       const wrapper = document.createElement('div');
       wrapper.classList.add('gallery-item');
